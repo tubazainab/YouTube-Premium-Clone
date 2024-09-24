@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: rgba(0, 0, 0, 0.877);
+   
+}
+.navleft{
+    display: flex;
+    gap: 20px;
+}
+.navcenter{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+.navcenter > input{
+    width: 60%;
+    padding: 6px;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: black;
+    border: 1px solid rgba(128, 128, 128, 0.616);
+    color: white;
+
+}
+.searchlogo{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.616);
+    padding: 4px;
+    margin-right: 10px;
+}
+.navright{
+    display: flex;
+    gap: 30px;
+}
+.profile{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+.ytpremium{
+   height: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   font-family: Arial;
+   margin: 40px;
+   margin-top: 120px;
+
+}
+.ytdesc h2{ 
+text-align: center;
+font-size: 30px;
+font-weight: 100;
+}
+.ytpremiumDetails{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.getpre_button{
+    border-radius: 15px;
+    height: 30%;
+    width: 40%;
+    padding: 5px;
+    background-color: rgb(64, 150, 219);
+    border: none
+}
+.prepaid_para{
+    font-size: 20px;
+    font-weight: 100;
+}
+.blue_para{
+    color: rgb(64, 150, 219);
+}
+.main_para{
+    font-size: 12px;
+}
+.features{
+    height: 50%;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+
+}
+
+.logo1{
+    height: 70px;
+}
+.logo_des{
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+.logo_para{
+    margin-top: 10px;
+    font-size: 12px;
+}
+/*bg1*/
+.bg1{
+    background-image: url(bg1.jpeg);
+    height: 60%;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.767);
+}
+.bg1 > div > h2{
+    font-size: 1.8rem;
+    font-weight: lighter;
+    
+}
+.bg1 > div > p{
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 100;
+
+}
+.bg1 > div{
+    padding: 150px 80px 0px 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/*bg2*/
+.bg2{
+    background-image: url(bg2.jpeg);
+    height: 60%;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.767);
+}
+.bg2 > div > h2{
+    font-size: 1.8rem;
+    font-weight: lighter;
+    
+}
+.bg2 > div > p{
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 100;
+
+}
+.bg2 > div{
+    padding: 120px 0px 100px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/*bg3*/
+.bg3{
+    background-image: url(bg3.jpeg);
+    height: 60%;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.767);
+}
+.bg3 > div > h2{
+    font-size: 1.8rem;
+    font-weight: lighter;
+    
+}
+.bg3 > div > p{
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 100;
+
+}
+.bg3 > div{
+    padding: 150px 80px 0px 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/*bg4*/
+.bg4{
+    background-image: url(bg4.jpeg);
+    height: 60%;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.767);
+}
+.bg4 > div > h2{
+    font-size: 1.8rem;
+    font-weight: lighter;
+    
+}
+.bg4 > div > p{
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 100;
+
+}
+.bg4 > div{
+    padding: 120px 0px 100px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/*FAQs*/
+.faqs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 70%;
+    
+
+}
+.faqdetails{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+.innerdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
